@@ -39,7 +39,7 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        name: Release ${{ steps.tag.outputs.result }}
+        name: Release ${{ steps.tag.outputs.result }} without SSL
         draft: false
         artifacts: "./ios/CocoaPodsPub/IJKMediaPlayer.tar.gz"
         allowUpdates: true
