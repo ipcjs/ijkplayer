@@ -1,7 +1,7 @@
 # Type a script or drag a script file from your workspace to insert its path.
 # Type a script or drag a script file from your workspace to insert its path.
 #!/bin/sh
-
+echo fuck your
 UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
 
 # make sure the output directory exists
